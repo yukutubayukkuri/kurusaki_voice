@@ -15,7 +15,7 @@ def get_prefix(bot, msg):
     return commands.when_mentioned_or(*prefixes)(bot, msg)
 
 bot = commands.Bot(command_prefix=get_prefix)
-YOUTUBE_API = 'YOUR YOUTUBE API TOKEN HERE'
+YOUTUBE_API = 'AIzaSyDxhGJOUKfaPToX3paF6BoFqRDzKXtI-l8'
 
 
 bot.remove_command('help')
@@ -314,4 +314,4 @@ async def songs(msg):
             await bot.say("Currently no songs in queue")
 
 
-bot.run('YUR BOT TOKEN HERE')
+bot.run('')
