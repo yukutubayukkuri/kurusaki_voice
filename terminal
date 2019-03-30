@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "first commit"
+#　ここまでgit関連
+
+heroku login #　ここでヘロクにログイン
+heroku git:remote -a nicodosaimusic
+
+git push heroku master # ちょっと時間かかる
